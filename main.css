@@ -1,0 +1,483 @@
+@import 'https://fonts.googleapis.com/css?family=Gloria+Hallelujah';
+@import 'https://fonts.googleapis.com/css?family=Ledger';
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    text-align: center;
+    margin: 0;
+    min-height: 500px
+    min-width: 980px
+    /*overflow:hidden;*/
+}
+body, html {
+    height: 100%;
+}
+nav {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gloria Hallelujah';
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #332d27;
+}
+nav li {
+    float: left;
+}
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav li a:hover {
+    background-color: crimson;
+}
+nav .active {
+    background-color: maroon;
+}
+main {
+    margin-left: 5vw;
+    margin-top: 5vh;
+}
+h1 {
+    font-family: 'Ledger';
+    font-size: 4vw;
+    padding-top: 4vw;
+    margin-bottom: 0;
+}
+h2 {
+    font-family: 'Ledger';
+    margin-top: 0;
+    font-size: 1.5vw;
+}
+h3 {
+    margin: 0;
+    padding-top: 5vh;
+    font-size: 3vw;
+    font-family: 'Ledger';
+    color: #332d27;
+}
+p {
+    font-family: 'Ledger';
+    font-size: 1vw;
+    font-kerning: normal;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.container {
+    background-color: #332d27;
+    color: #ffffff;
+}
+.container p {
+    margin: 3vh 4vw;
+}
+#about-page {
+    background-image: url("images/background-image.jpg");
+
+    height: 100vh;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#about-page .container p {
+    text-align: justify;
+}
+#about-page .container {
+    width: 30vw;
+    height: 35vw;
+}
+#weekprogram-page {
+    height: 100vh;
+
+    background-color:white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #332d27;
+
+    text-align: left;
+}
+#weekprogram-page p {
+    font-size: 1vw;
+}
+#week-program-container {
+    margin-left: 8.5vw;
+    margin-right: 10vw;
+}
+#week-program-list {
+    margin: 4vh 0 0 0;
+    list-style-type: none;
+}
+#week-program-item {
+    padding: 0;
+}
+#menu-page {
+    height: 100vh;
+
+    background-image: url("images/chilli.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#menu-page .container {
+    float: right;
+    width: 40vw;
+    height: 100vh;
+}
+#menu-page .container ul, #menu-page .container a {
+    list-style-type: none;
+    font-family: 'Ledger';
+    font-size: 1vw;
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+#menu-page a:hover {
+    font-weight: bold;
+}
+#menu-page h1 {
+    margin-top: -5vh;
+}
+#menu-page p {
+    font-size: 1vw;
+}
+#starters-page {
+    height: 100vh;
+
+    margin: 0;
+    padding: 0;
+
+    text-align: center;
+
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #332d27;
+}
+#starters-page p {
+    margin: 3vh 5vw;
+    font-size: 1vw;
+}
+#starters-page h2 {
+    font-family: 'Ledger';
+    margin-bottom: 3vh;
+    font-size: 1.5vw;
+}
+#soups-page {
+    background-image: url("images/soups.jpg");
+    height: 100vh;
+
+    background-color: #FC5B01;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #332d27;
+
+    text-align: left;
+}
+#soups-page p {
+    font-size: 1.8vh;
+}
+#soups-page h3 {
+    margin: 0;
+    padding-top: 5vh;
+    font-size: 3vw;
+    font-family: 'Ledger';
+    color: white;
+}
+#soups-page .container {
+    float: left;
+    width: 30vw;
+    height: 100vh;
+
+    background-color: #332d27;
+    color: #ffffff;
+    text-align: center;
+}
+#pasta-page {
+    background-image: url("images/pasta.jpg");
+    height: 100vh;
+    width: 30vw;
+
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #332d27;
+
+    text-align: left;
+}
+#pasta-page .container {
+    margin-left: 30vw;
+    padding-top: 4vw;
+    padding-left: 12vw;
+    width: 50vw;
+    height: 100vh;
+    background-color: #ffffff;
+    color: #332d27;
+    text-align: left;
+}
+#pasta-page .container ul {
+    list-style-type: none;
+    font-family: 'Ledger';
+    font-size: 1.8vh;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+#maindish-page {
+    margin: 0;
+    padding: 0;
+
+    height: 100vh;
+
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #332d27;
+    text-align: center;
+}
+#maindish-page .container {
+    margin: 0 2.5vw;
+    background-color: white;
+    color: #332d27;
+    columns: 3;
+}
+#maindish-page p {
+    margin-top: 0;
+    margin-bottom: 4vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-size: 1.8vh;
+}
+#maindish-page h2 {
+    font-family: 'Ledger';
+    margin-bottom: 3vh;
+    font-size: 1.5vw;
+}
+#dessert-page {
+    background-image: url("images/desserts.jpg");
+    height: 100vh;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+
+    text-align: left;
+}
+#dessert-page h3 {
+    margin: 0;
+    padding-top: 5vh;
+    font-size: 6vh;
+    font-family: 'Ledger';
+    color: white;
+}
+#dessert-page .container {
+    margin-left: 30vw;
+    padding-top: 4vw;
+    padding-left: 6vw;
+    width: 40vw;
+    height: 100vh;
+    background-color: #332d27;
+    color: #ffffff;
+    text-align: left;
+}
+#dessert-page .container ul {
+    list-style-type: none;
+    font-family: 'Ledger';
+    font-size: 1.8vh;
+    text-decoration: none;
+}
+#drinks-page {
+    background-image: url("images/drinks.jpg");
+    height: 100vh;
+
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #332d27;
+
+    text-align: left;
+}
+#drinks-page .additional-container {
+    margin-top: 10vh;
+    float: right;
+    width: 50vw;
+    background-color: #ffffff;
+    color: #332d27;
+    border-bottom: 2vh solid #332d27;
+    text-align: center;
+}
+#drinks-page .container {
+    background-color: #ffffff;
+    color: #332d27;
+    columns: 2;
+    padding-bottom: 10vh;
+}
+#drinks-page .container ul {
+    list-style-type: none;
+    font-family: 'Ledger';
+    font-size: 1.8vh;
+    text-decoration: none;
+}
+#contact-page {
+    background-image: url("images/larger-groups.jpg");
+    height: 100vh;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #332d27;
+
+    text-align: left;
+}
+
+#price-tag {
+    font-family: 'Gloria Hallelujah';
+    font-weight: 600;
+}
+#disclaimer {
+    font-size: smaller;
+    text-align: center;
+}
+#menu-container {
+    columns: 3;
+}
+
+#address-style {
+    float: right;
+    margin-top: 1.5vh;
+    margin-right: 1vw;
+    color: #F9F9F9;
+}
+
+.sidetext-container {
+    padding-left: 2vw;
+    max-width:600px;
+    height: 100%;
+    width:100%;
+    float: left;
+    position: sticky;
+}
+.sidetext-container p {
+    color: #F9F9F9;
+    font-size: 8vh;
+    line-height: 2vh;
+}
+
+#address {
+    font-size: 6vh;
+}
+
+.contact-container {
+    max-width:400px;
+    padding-left: 30vw;
+    width:100%;
+    float: left;
+	position:relative;
+}
+
+#contact input[type="text"], 
+#contact input[type="email"], 
+#contact input[type="tel"], 
+#contact input[type="url"], 
+#contact textarea, 
+#contact button[type="submit"] { font:400 12px/16px ; }
+
+#contact {
+	background:#F9F9F9;
+	padding:25px;
+	margin:50px 0;
+}
+
+#contact h3 {
+    margin-left: 20px;
+    padding-bottom: 70px;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#contact input[type="text"], 
+#contact input[type="email"], 
+#contact input[type="tel"],  
+#contact textarea {
+	width:100%;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+#contact input[type="text"]:hover, 
+#contact input[type="email"]:hover, 
+#contact input[type="tel"]:hover,  
+#contact textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid crimson;
+}
+
+#contact textarea {
+	height:100px;
+	max-width:100%;
+  resize:none;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:#332d27;
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+	background:crimson;
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { 
+    box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); 
+}
+
+#contact input:focus, #contact textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}
